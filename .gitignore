@@ -1,0 +1,21 @@
+# Uploaded PDF files
+
+data/*
+!data/.gitkeep
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+
+venv/
+.venv/
+
+# Python cache and tests
+
+**pycache**/
+*.py[cod]
+.pytest_cache/
